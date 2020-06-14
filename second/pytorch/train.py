@@ -5,6 +5,9 @@ import shutil
 import time
 from functools import partial
 
+import faulthandler
+faulthandler.enable()
+
 import fire
 import numpy as np
 import torch
